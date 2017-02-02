@@ -9,14 +9,14 @@ Here we need to take care of few thing. For iOS we have givne the imageFormat pr
 <br/>
 Step1: The Captured Image from the Camera is converted to PNG RAWBYTES because the "imageFormat" property of the Camera Contructor is set to constants.CAMERA_IMAGE_FORMAT_PNG and then writing to the Camera Roll.
 i.e., In the callback onCameraClick() which receives PNG RAWBYTES.
-<br/>
+<br/><br/>
 Step2: The same Image (Caputure Image) picking from the Camera Roll is converted to JPEG RAWBYTES by default based on the internal logic(there is no way to choose png or jpeg).
 i.e., onselectioncallback(rawbytes) callback receives JPEG RAWBYTES
-<br/>
+<br/><br/>
 To ge the extact size of the image from Camera and Gallery we need to set the "imageFormat" property of the Camera Contructor to CAMERA_IMAGE_FORMAT_JPEG and "compressionLevel" property of the Camera in the contructor to  100.
 
 We have taken care all the steps in our sample.
-
+<br/>
 <font size="10"><b>Supported Channels</b></font><br/>
 1) iPhone
 2) Android
