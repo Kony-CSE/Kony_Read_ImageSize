@@ -17,11 +17,9 @@ To ge the extact size of the image from Camera and Gallery we need to set the "i
 
 We have taken care all the steps in our sample.
 
-Supported Channels
-
+<font size="6"><b>Supported Channels</b></font>
 1) iPhone
 2) Android
 
-Supported Versions
-
+<font size="6"><b>Supported Versions</b></font>
 6.5 and above
