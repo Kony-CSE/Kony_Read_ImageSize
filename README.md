@@ -14,9 +14,9 @@ Step2: The same Image (Caputure Image) picking from the Camera Roll is converted
 i.e., onselectioncallback(rawbytes) callback receives JPEG RAWBYTES
 <br/><br/>
 To ge the extact size of the image from Camera and Gallery we need to set the "imageFormat" property of the Camera Contructor to CAMERA_IMAGE_FORMAT_JPEG and "compressionLevel" property of the Camera in the contructor to  100.
-<br/>
+<br/><br/>
 We have taken care all the steps in our sample.
-<br/>
+<br/><br/>
 <font size="10"><b>Supported Channels</b></font><br/>
 1) iPhone
 2) Android
